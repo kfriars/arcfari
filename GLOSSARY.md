@@ -35,3 +35,15 @@ _Avoid_: alt-tab, tab overview, ctrl-tab
 **Frecency**:
 How strongly a place in your history is favoured, blending how often and how recently you visited it.
 _Avoid_: popularity, rank
+
+**Visit**:
+One page you went to in a Profile; the raw material of Frecency. Switching to an open tab is not a Visit.
+_Avoid_: hit, history entry
+
+**Typed Visit**:
+A Visit you started from the Command Palette, as opposed to one reached by following a link.
+_Avoid_: direct visit
+
+**Site**:
+An address with no scheme and no `www.`, such as `example.com`; the first thing Inline Completion fills.
+_Avoid_: domain, origin
