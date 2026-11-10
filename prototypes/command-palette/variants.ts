@@ -1,7 +1,7 @@
 // PROTOTYPE — throwaway. Three radically different Command Palettes, same data, same keys.
 //
 //   A  Spotlight   big field, one flat list, completion drawn as selected text, empty ⌘T is just the field
-//   B  Sectioned   Profile chip in the field, grouped two-line rows, key-hint footer, empty ⌘T lists open tabs
+//   B  Sectioned   Profile chip in the field, grouped two-line rows, key-hint footer, empty ⌘T is just the field
 //   C  Address     URL-first dense rows tinted by the Profile, ghost-text completion, empty ⌘T shows top sites
 
 import type { Row } from "./palette-logic";
@@ -115,7 +115,7 @@ export const B: Variant = {
   key: "B",
   name: "Sectioned",
   style: "selection",
-  empty: "tabs",
+  empty: "none",
   mount(root, h) {
     root.innerHTML = `
       <div class="pb">

@@ -422,9 +422,6 @@ function renderWindow() {
   const p = S.active;
   const cur = currentTab();
   $("#profile-btn").innerHTML = `<i style="background:${p.color}"></i>${esc(p.name)}`;
-  $("#tabs").innerHTML = p.tabs
-    .map((t) => `<div class="tab${t.id === p.current && S.backdrop === "page" ? " on" : ""}">${icon(siteOf(t.key), 14)}<span>${esc(t.title)}</span></div>`)
-    .join("") + (S.backdrop === "start" ? `<div class="tab on"><span>Start Page</span></div>` : "");
   const page = $("#page");
   page.className = S.backdrop === "start" ? "start" : "site";
   if (S.backdrop === "start") {

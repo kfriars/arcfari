@@ -42,7 +42,7 @@ Inside the palette:
 | Completion | Selected text | Selected text | Ghost text with a `tab` hint |
 | Rows | One flat list, title — url | Grouped under headers, two lines | Url first, title on the right, dense |
 | Profile | Dot + name at the right of the field | Chip + colour bar on the selected row | Coloured top edge, glow and selection |
-| Empty ⌘T | Just the field | Open tabs | Top sites as tiles |
+| Empty ⌘T | Just the field | Just the field, with the key-hint footer | Top sites as tiles |
 
 ## Bottom bar
 
