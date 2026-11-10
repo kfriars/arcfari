@@ -17,8 +17,8 @@ The Profile a Window is currently showing; each Window has exactly one.
 _Avoid_: current space, focused profile
 
 **Toolbar**:
-Safari's own strip of extension buttons and downloads, hidden until toggled with ⌘/.
-_Avoid_: sidebar, address bar
+The single strip across the top of a Window, holding the window controls, the tabs and a few buttons; always on screen, except in full screen.
+_Avoid_: tab bar, title bar, chrome, sidebar
 
 **Command Palette**:
 The floating, centred panel summoned by ⌘T or ⌘L for going to an address, searching, or jumping to an open tab.
